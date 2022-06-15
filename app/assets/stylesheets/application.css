@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: hwb(122 50% 39%);
+}
+
+header .headline{
+  font-size: 32px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(21, 18, 18);
+}
+
+.main_table {
+  width: 750px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 550px;
+}
+
+footer {
+  /* footer部分の実装 */
+  background-color: hwb(122 50% 39%);
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  color: rgb(21, 18, 18);
+  }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appkadai</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", media: "all" %>
+    <%= javascript_pack_tag "application" %>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="headline">
+        <a> ʕ•ᴥ•ʔ </a><a> みんつぶ </a><a> ʕ•ᴥ•ʔ </a>
+      </h1>
+    </header>
+    <footer>
+      <p>~つぶやきを知ると世界が平和に~</p>
+      <p>© 2015-2018 Copyright ANYA SPY FAM Corp.</p>
+    </footer>
+    <%= yield %>
+  </body>
+</html>
